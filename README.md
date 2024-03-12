@@ -10,3 +10,8 @@ Coordial saludo, nuestro grupo de Programacion se llama API-lados, a continuacio
 + Michael Kaleth Mora Mejia (1086774311)
 + Angie Carolina Salazar Lara (1052837889)
 + Alejandro	Urrego Valencia (1000364014)
+
+-------------
+
+1. Como primer punto del taller se encomendo realizar un [Quiz](http://https://pythonspot.com/python-tests-quizes/ "Quiz")
+ Python Beginner Quiz (20 preguntas) y adjuntar una imagen con mas del 90% de acierto. En nuestro caso logramos obtener un
