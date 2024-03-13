@@ -59,26 +59,26 @@ El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 Este código comienza con la lectura de un número entero utilizando input(), convirtiéndolo a entero con int() debido a que input() lee los datos como cadena de texto. Luego, utiliza una declaración if para evaluar si el residuo de dividir el número entre 2 es igual a 0. Si es así, imprime que el número es par; de lo contrario, imprime que es impar.
 ```python
-# Leer un número entero
-numero = int(input("Introduce un número entero: "))
+# Asignar un número entero directamente en el código
+numero = 10  # Cambiar este valor para probar con diferentes números
 
 # Determinar si el número es par o impar
 if numero % 2 == 0:
-    print("El número es par.")
+    print(f"El número {numero} es par.")
 else:
-    print("El número es impar.")
+    print(f"El número {numero} es impar.")
 
-# Código finalizado
+# Fin codigo
 
 ```
 Su diagrama de flujo.
 
 ```mermaid
 graph TD;
-    A[Inicio] --> B[Leer número entero];
-    B --> C{El número es par?};
-    C -->|Sí| D[Imprimir = el número es par];
-    C -->|No| E[Imprimir = el número es impar];
+    A[Inicio] --> B[Asignar número entero a la variable numero];
+    B --> C{numero % 2 == 0?};
+    C -- Sí --> D[Imprimir -El número es par.-];
+    C -- No --> E[Imprimir -El número es impar.-];
     D --> F[Fin];
     E --> F;
 ```
@@ -129,23 +129,23 @@ El programa, al ser par, se encuentra en el repositorio con terminacion .py
 Este programa solicita al usuario que ingrese tres números reales. Los números se leen desde la entrada estándar y se almacenan en variables después de convertirlos a tipo float. Luego, se calcula la suma de los dos primeros números y se compara esta suma con el tercer número. Dependiendo de esta comparación, se imprime si la suma es mayor, menor o igual al tercer número.
 
 ```python
-# Leer tres números reales
-num1 = float(input("Introduce el primer número real: "))
-num2 = float(input("Introduce el segundo número real: "))
-num3 = float(input("Introduce el tercer número real: "))
+# Definir los tres números directamente en el código
+numero1 = 3.5  # Aquí puedes cambiar el valor para probar con diferentes números
+numero2 = 4.5  # Aquí puedes cambiar el valor para probar con diferentes números
+numero3 = 4.0  # Aquí puedes cambiar el valor para probar con diferentes números
 
-# Sumar los dos primeros números
-suma = num1 + num2
+# Calcula la suma de los dos primeros números
+suma = numero1 + numero2
 
-# Comparar la suma con el tercer número y mostrar el resultado
-if suma > num3:
+# Compara la suma con el tercer número e imprime el resultado
+if suma > numero3:
     print("La suma de los dos primeros números es mayor que el tercer número.")
-elif suma < num3:
+elif suma < numero3:
     print("La suma de los dos primeros números es menor que el tercer número.")
 else:
     print("La suma de los dos primeros números es igual al tercer número.")
 
-# Código finalizado
+# fin del codigo
 
 ```
 
@@ -253,6 +253,10 @@ raiz_cubica_menor = menor ** (1/3)
 print(f"Raíz cúbica del menor número: {raiz_cubica_menor}")
 ```
 
+El programa se encuentra en el repositorio y al ser impar esta en un mismo archivo con terminacion .ipynb
+
+--------------
+
 8. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
 Para este programa se realizan una serie de pasos que se basan inicialmente en pedir al usuario la frecuencia de la onda en hertzios (Hz) se descomenta la línea que usa input() para permitir al usuario ingresar el valor. Seguido de esto, se define una función determinar_espectro() que utiliza estructuras condicionales (if/elif/else) para determinar en qué parte del espectro electromagnético se encuentra la frecuencia dada, basándose en los rangos definidos para cada tipo de onda.
@@ -284,6 +288,10 @@ def encontrar_categoria(frecuencia):
 categoria = encontrar_categoria(frecuencia)
 print(f"La frecuencia {frecuencia} Hz se encuentra en la categoría: {categoria}")
 ```
+
+El programa, al ser par, se encuentra en el repositorio con terminacion .py
+
+---------------
 
 9. En este caso se pretende realizar un programa que reciba el nombre en minúsculas de un país de America y retorna la ciudad capital y si el país no pertenece al continente debe arrojar país no identificado.
     
@@ -319,14 +327,15 @@ capitales = {
 
 # Paso 2: Solicitar al usuario que ingrese el nombre de un país de América
 # Para este ejemplo, asignaremos el nombre del país directamente.
-pais = "mexico"  # Simula la entrada del usuario
+pais = "colombia"  # Simula la entrada del usuario
 
 # Paso 3: Verificar si el país está en el diccionario y mostrar la capital
-# Si el país no se encuentra, se indica que no está identificado
 if pais in capitales:
     print(f"La capital de {pais} es: {capitales[pais]}")
 else:
     print("País no identificado")
+
+# fin codigo
 ```
 
 Nos corresponde la realización de un diagrama de flujo para este numeral, el cual está a continuación:
@@ -338,5 +347,7 @@ graph TD;
     B -- No --> D[Mostrar 'País no identificado']
 ```
 
+El programa se encuentra en el repositorio y al ser impar esta en un mismo archivo con terminacion .ipynb
 
+---------------
    
