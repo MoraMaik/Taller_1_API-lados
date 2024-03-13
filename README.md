@@ -355,12 +355,15 @@ graph TD;
     B -- No --> D[Mostrar 'País no identificado']
 
 
-El programa se encuentra en el repositorio y al ser impar esta en un mismo archivo con terminacion .ipynb
 
----------------
+
+
    
-### 10. 
+### 10.
 
+
+
+```python
 
 print("Bienvenidos al programa ´Calcula-tiempos´")
 distancia : float = float(input("Ingrese una distancia (metros): "))
