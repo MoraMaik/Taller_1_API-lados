@@ -179,8 +179,60 @@ else:
 El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
+7. Este punto
 
-8. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+
+```python
+   # Celda 1: Solicitar al usuario que ingrese 5 números reales
+# Para el contexto de este ejemplo, se asignarán los números directamente.
+# En un entorno interactivo, podrías usar input() para capturar los números uno por uno.
+numeros = [2.3, 4.5, 1.2, 3.4, 5.6]  # Ejemplo de lista de números
+
+# Celda 2: Calcular el promedio
+suma = 0
+for numero in numeros:
+    suma += numero
+promedio = suma / len(numeros)
+print(f"Promedio: {promedio}")
+
+# Celda 3: Calcular la mediana
+numeros_ordenados = sorted(numeros)
+mitad = len(numeros_ordenados) // 2
+if len(numeros_ordenados) % 2 == 0:
+    mediana = (numeros_ordenados[mitad - 1] + numeros_ordenados[mitad]) / 2
+else:
+    mediana = numeros_ordenados[mitad]
+print(f"Mediana: {mediana}")
+
+# Celda 4: Calcular el promedio multiplicativo
+producto = 1
+for numero in numeros:
+    producto *= numero
+promedio_multiplicativo = producto ** (1/len(numeros))
+print(f"Promedio multiplicativo: {promedio_multiplicativo}")
+
+# Celda 5: Ordenar los números de forma ascendente
+numeros_ascendente = sorted(numeros)
+print(f"Números en orden ascendente: {numeros_ascendente}")
+
+# Celda 6: Ordenar los números de forma descendente
+numeros_descendente = sorted(numeros, reverse=True)
+print(f"Números en orden descendente: {numeros_descendente}")
+
+# Celda 7: Calcular la potencia del mayor número elevado al menor número
+mayor = max(numeros)
+menor = min(numeros)
+potencia_mayor_menor = mayor ** menor
+print(f"Potencia del mayor número elevado al menor: {potencia_mayor_menor}")
+
+# Celda 8: Calcular la raíz cúbica del menor número
+# Como Python no tiene una función integrada específica para la raíz cúbica,
+# se utiliza la operación de exponente con 1/3 para calcularla.
+raiz_cubica_menor = menor ** (1/3)
+print(f"Raíz cúbica del menor número: {raiz_cubica_menor}")
+```
+
+9. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
 Para este programa se realizan una serie de pasos que se basan inicialmente en pedir al usuario la frecuencia de la onda en hertzios (Hz) se descomenta la línea que usa input() para permitir al usuario ingresar el valor. Seguido de esto, se define una función determinar_espectro() que utiliza estructuras condicionales (if/elif/else) para determinar en qué parte del espectro electromagnético se encuentra la frecuencia dada, basándose en los rangos definidos para cada tipo de onda.
 Usa esta función para obtener la parte del espectro correspondiente a la frecuencia ingresada. Finalmente da el resultado, indicando en qué parte del espectro se encuentra la frecuencia proporcionada.
