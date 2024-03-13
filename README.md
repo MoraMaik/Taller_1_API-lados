@@ -346,17 +346,13 @@ else:
 # fin codigo
 ```
 
-Nos corresponde la realización de un diagrama de flujo para este numeral, el cual está a continuación:
+Nos corresponde la realización de un diagrama de flujo para este numeral, el cual está a continuación:  
 
 ```mermaid
 graph TD;
     A[Solicitar al usuario el nombre de un país de América] --> B{El país está en el diccionario?}
     B -- Sí --> C[Mostrar la capital del país]
     B -- No --> D[Mostrar 'País no identificado']
-```
-
-
-
 
 
 El programa se encuentra en el repositorio y al ser impar esta en un mismo archivo con terminacion .ipynb
@@ -364,6 +360,29 @@ El programa se encuentra en el repositorio y al ser impar esta en un mismo archi
 ---------------
    
 ### 10. 
+
+
+print("Bienvenidos al programa ´Calcula-tiempos´")
+distancia : float = float(input("Ingrese una distancia (metros): "))
+
+tiempoLuz : float = distancia/3.0e+8
+print(f"El tiempo que tarda la luz en recorrer {distancia} metros es de: {tiempoLuz} segundos.")
+
+tiempoAire : float = distancia/349
+print(f"El tiempo que tarda el sonido en recorrer {distancia} metros con una temperatura en el aire de 30°C es de: {tiempoAire} segundos.")
+
+tiempoCarro : float = distancia/136.25
+print(f"El tiempo que tarda el Bugatti Chiron en recorrer {distancia} metros es de: {tiempoCarro} segundos.")
+
+tiempoBolt : float = distancia/11.66
+print(f"El tiempo que tarda Usain Bolt en recorrer {distancia} metros es de: {tiempoBolt} segundos.")
+```
+
+
+
+
+
+
 
 
 
