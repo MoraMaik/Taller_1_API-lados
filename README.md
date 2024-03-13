@@ -94,4 +94,31 @@ El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
 
-7. En este punto se solicitó escribir un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital y en caso tal de que  el país no pertenezca al continente, el programa arroja país no identificado.
+8. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+```python
+# Paso 1: Definir los límites de frecuencia para cada categoría del espectro electromagnético
+espectro = {
+    "Ondas de Radio": (0, 3e9), # hasta 3 GHz
+    "Microondas": (3e9, 3e11), # 3 GHz a 300 GHz
+    "Infrarrojo": (3e11, 4e14), # 300 GHz a 400 THz
+    "Luz Visible": (4e14, 7.5e14), # 400 THz a 750 THz
+    "Ultravioleta": (7.5e14, 3e16), # 750 THz a 30 PHz
+    "Rayos X": (3e16, 3e19), # 30 PHz a 30 EHz
+    "Rayos Gamma": (3e19, 2.9e27) # mayor a 30 EHz
+}
+
+# Paso 2: Solicitar al usuario que ingrese la frecuencia de la onda en Hz
+frecuencia = 5e14 # Ejemplo de frecuencia
+
+# Paso 3: Determinar en qué parte del espectro electromagnético se encuentra la frecuencia
+def encontrar_categoria(frecuencia):
+    for categoria, (min_freq, max_freq) in espectro.items():
+        if min_freq <= frecuencia < max_freq:
+            return categoria
+    return "Frecuencia fuera del rango conocido"
+
+# Paso 4: Mostrar la categoría del espectro donde se encuentra la frecuencia ingresada
+categoria = encontrar_categoria(frecuencia)
+print(f"La frecuencia {frecuencia} Hz se encuentra en la categoría: {categoria}")
+```
+
