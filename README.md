@@ -94,4 +94,4 @@ El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
 
-
+7. En este punto se solicitó escribir un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital y en caso tal de que  el país no pertenezca al continente, el programa arroja país no identificado.
