@@ -13,7 +13,8 @@ Coordial saludo, nuestro grupo de Programacion se llama API-lados, a continuacio
 
 ## Extra
 
-Realizamos la explicacion del Punto 3 del taller, a traves de un [video](http://https://youtu.be/7iY025Nden4?si=0c9ZjtwzETxhgRjx "video") en Youtube
+Realizamos la explicacion del Punto 3 del taller, a traves de un video en Youtube https://youtu.be/7iY025Nden4?feature=shared
+
 
 ------------
 
