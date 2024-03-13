@@ -212,7 +212,8 @@ print(f"La frecuencia {frecuencia} Hz se encuentra en la categoría: {categoria}
 ```
 
 9. En este caso se pretende realizar un programa que reciba el nombre en minúsculas de un país de America y retorna la ciudad capital y si el país no pertenece al continente debe arrojar país no identificado.
-
+    
+Se creó un diccionario llamado capitales, el cual actúa como una pequeña base de datos para el programa. Los países actúan como claves (keys) y sus respectivas capitales como valores (values). Este diccionario incluye una variedad de países de América y sus capitales correspondientes. Seguido a esto, a pesar de que se utiliza un ejemplo, lo ideal es utilizar input() para permitir al usuario ingresar el nombre del país, algo así como pais = input("Ingrese el nombre de un país de América: ").lower(), asegurando que la entrada se convierta a minúsculas para que coincida con las claves del diccionario. Para finalizar el programa utiliza una estructura condicional if para verificar si el país ingresado se encuentra dentro del diccionario capitales. Si el país está en el diccionario (if pais in capitales:), el programa imprime el nombre del país y su capital correspondiente utilizando la sintaxis de formateo de cadenas. Esto se logra mediante el acceso al valor asociado con la clave que coincide con el nombre del país ingresado. Si el país no se encuentra en el diccionario (else:), se imprime un mensaje diciendo "País no identificado" para indicar que el nombre ingresado no coincide con ninguna de las claves del diccionario de capitales.
 
     
 ```python
@@ -256,7 +257,7 @@ else:
     print("País no identificado")
 ```
 
-
+Nos corresponde la realización de un diagrama de flujo para este numeral, el cual está a continuación:
 
 ```mermaid
 graph TD;
@@ -264,3 +265,6 @@ graph TD;
     B -- Sí --> C[Mostrar la capital del país]
     B -- No --> D[Mostrar 'País no identificado']
 ```
+
+
+   
