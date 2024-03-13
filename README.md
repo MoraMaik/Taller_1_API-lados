@@ -22,7 +22,8 @@ Coordial saludo, nuestro grupo de Programacion se llama API-lados, a continuacio
 - **Angie Carolina Salazar Lara**
 
 
-- **Alejandro	Urrego Valencia** 
+- **Alejandro	Urrego Valencia**
+- ![Screenshot_2024-03-13-15-04-17-702_com android chrome-edit](https://github.com/MoraMaik/Taller_1_API-lados/assets/159048641/0d209f1d-1ec2-4f38-be88-359cb263bf23)
 
 -------------
 ### 2. Como segundo punto se nos asigno realizar un programa que lea tres números reales y determine cuál es el mayor.
@@ -362,6 +363,8 @@ El programa se encuentra en el repositorio y al ser impar esta en un mismo archi
 ### 10. 
 
 ```python
+# Paso 1: Definir un numero entero
+
 
 print("Bienvenidos al programa ´Calcula-tiempos´")
 distancia : float = float(input("Ingrese una distancia (metros): "))
@@ -378,14 +381,9 @@ print(f"El tiempo que tarda el Bugatti Chiron en recorrer {distancia} metros es 
 tiempoBolt : float = distancia/11.66
 print(f"El tiempo que tarda Usain Bolt en recorrer {distancia} metros es de: {tiempoBolt} segundos.")
 
+# Paso 2: Verificar si el numero es par o impar
 
-
-
-
-
-
-
-
-
+# fin codigo
+```
 
 
