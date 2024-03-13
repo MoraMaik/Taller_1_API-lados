@@ -36,4 +36,13 @@ Este código utiliza la función input() para leer los números desde la entrada
     
     # Código finalizado
 ```
+Aqui esta el diagrama de flujo.
+
+[![PUNTO-2-2024-03-12-203040.png](https://i.postimg.cc/yNNfxDcv/PUNTO-2-2024-03-12-203040.png)](https://postimg.cc/G4ZPShMy)
+
 El programa se encuentra en el repositorio con terminacion .py
+
+-------------
+3. Para el tercer punto se encomendo Realizar un programa que lea un número enteros y determine si es par o impar.
+
+
