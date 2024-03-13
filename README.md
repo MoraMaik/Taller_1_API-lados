@@ -24,7 +24,7 @@ Realizamos la explicacion del Punto 3 del taller, a traves de un [video](http://
 [![Whats-App-Image-2024-03-13-at-12-21-16-PM.jpg](https://i.postimg.cc/SRywDHWf/Whats-App-Image-2024-03-13-at-12-21-16-PM.jpg)](https://postimg.cc/hz5yGyZX)
 
 - **Angie Carolina Salazar Lara**
-
+[![Captura-de-pantalla-2024-03-13-174008.png](https://i.postimg.cc/JhfkKW9P/Captura-de-pantalla-2024-03-13-174008.png)](https://postimg.cc/rd9sF7yr)
 
 - **Alejandro	Urrego Valencia**
 ![Screenshot_2024-03-13-15-04-17-702_com android chrome-edit](https://github.com/MoraMaik/Taller_1_API-lados/assets/159048641/0d209f1d-1ec2-4f38-be88-359cb263bf23)
