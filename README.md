@@ -38,8 +38,20 @@ Este código utiliza la función input() para leer los números desde la entrada
 ```
 Aqui esta el diagrama de flujo.
 
-[![PUNTO-2-2024-03-12-203040.png](https://i.postimg.cc/yNNfxDcv/PUNTO-2-2024-03-12-203040.png)](https://postimg.cc/G4ZPShMy)
-
+```mermaid
+graph TD;
+    A[Inicio] --> B[Leer primer número real - num1];
+    B --> C[Leer segundo número real - num2];
+    C --> D{num2 es 0?};
+    D -->|Sí| E[Imprimir -No se puede dividir por cero.-];
+    D -->|No| F{num1 % num2 == 0?};
+    F -->|Sí| G[Imprimir -num1 es múltiplo de num2-];
+    F -->|No| H[Imprimir -num1 no es múltiplo de num2-];
+    E --> I[Fin];
+    G --> I;
+    H --> I;
+```
+  
 El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
@@ -61,8 +73,15 @@ else:
 ```
 Su diagrama de flujo.
 
-[![PUNTO-3.png](https://i.postimg.cc/VLdLqg18/PUNTO-3.png)](https://postimg.cc/9rHhVGr8)
-
+```mermaid
+graph TD;
+    A[Inicio] --> B[Leer número entero];
+    B --> C{El número es par?};
+    C -->|Sí| D[Imprimir = el número es par];
+    C -->|No| E[Imprimir = el número es impar];
+    D --> F[Fin];
+    E --> F;
+```
 El programa se encuentra en el repositorio y al ser impar esta en un mismo archivo con terminacion .ipynb
 
 -------------
@@ -88,7 +107,19 @@ else:
 ```
 Su diagrama de flujo.
 
-[![punto-4-2024-03-13-040503.png](https://i.postimg.cc/k4vFy9QB/punto-4-2024-03-13-040503.png)](https://postimg.cc/sQ1hVk0r)
+```mermaid
+graph TD;
+    A[Inicio] --> B[Leer primer número real - num1];
+    B --> C[Leer segundo número real - num2];
+    C --> D{num2 es 0?};
+    D -->|Sí| E[Imprimir -No se puede dividir por cero.-];
+    D -->|No| F{num1 % num2 == 0?};
+    F -->|Sí| G[Imprimir -num1 es múltiplo de num2-];
+    F -->|No| H[Imprimir -num1 no es múltiplo de num2-];
+    E --> I[Fin];
+    G --> I;
+    H --> I;
+```
 
 El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
