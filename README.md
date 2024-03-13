@@ -393,4 +393,8 @@ print(f"El tiempo que tarda Usain Bolt en recorrer {distancia} metros es de: {ti
 # fin codigo
 ```
 
+El programa, al ser par, se encuentra en el repositorio con terminacion .py
+
+FIN DE TALLER
+---------------
 
