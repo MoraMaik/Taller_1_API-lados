@@ -364,10 +364,13 @@ El programa se encuentra en el repositorio y al ser impar esta en un mismo archi
 
 ---------------
    
-### 10. 
+### 10. En este caso se pretende crear un programa el cual con una distancia, nos determine el tiempo que tardan distintos casos en recorrer dicha distancia.
+
+Se creó un programa el cual tiene como nombre "	Calcula-tiempos", este programa inicia con un input() de la distancia en metros la cual el usuario desea calcular. a continuación,se tienen diferentes variables según el tiempo de cada caso, es decir, todos los casos utilizan la misma distancia pero cada uno tiene una velocidad diferente. Por lo que al despejar la variable del tiempo, es necesario tener variables diferentes en cada caso. Después de ingresar el calculo de "tiempo=distancia/velocidad". Se imprime la respuesta acompañada con el contexto del caso. 
 
 ```python
-# Paso 1: Definir un numero entero
+# Paso 1: establecer el input() de la distancia
+# Paso 2: ingresar un numero equivalente a una distancia en metros
 
 
 print("Bienvenidos al programa ´Calcula-tiempos´")
@@ -385,7 +388,7 @@ print(f"El tiempo que tarda el Bugatti Chiron en recorrer {distancia} metros es 
 tiempoBolt : float = distancia/11.66
 print(f"El tiempo que tarda Usain Bolt en recorrer {distancia} metros es de: {tiempoBolt} segundos.")
 
-# Paso 2: Verificar si el numero es par o impar
+# Paso 3: Verificar la veracidad de la respuesta
 
 # fin codigo
 ```
