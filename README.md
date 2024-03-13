@@ -1,19 +1,19 @@
 # Taller_1_API-lados
 -------------
 
-### Desarrollo del Taller 1 en la asignatura de Programación de Computadores - UNAL
+## Desarrollo del Taller 1 en la asignatura de Programación de Computadores - UNAL
 Coordial saludo, nuestro grupo de Programacion se llama API-lados, a continuacion presentamos nuestro logo hecho con IA.
 
 [![Whats-App-Image-2024-02-28-at-9-47-06-AM.jpg](https://i.postimg.cc/W4qjTqyc/Whats-App-Image-2024-02-28-at-9-47-06-AM.jpg)](https://postimg.cc/rdT79scf)
 
-### Integrantes:
+## Integrantes:
 + Michael Kaleth Mora Mejia (1086774311)
 + Angie Carolina Salazar Lara (1052837889)
 + Alejandro	Urrego Valencia (1000364014)
 
 -------------
 
-1. Como primer punto del taller se encomendo realizar un [Quiz](http://https://pythonspot.com/python-tests-quizes/ "Quiz")
+### 1. Como primer punto del taller se encomendo realizar un [Quiz](http://https://pythonspot.com/python-tests-quizes/ "Quiz")
  Python Beginner Quiz (20 preguntas) y adjuntar una imagen con mas del 90% de acierto. En nuestro caso logramos obtener:
 
 -  **Michael Kaleth Mora Mejia**
@@ -25,7 +25,7 @@ Coordial saludo, nuestro grupo de Programacion se llama API-lados, a continuacio
 - **Alejandro	Urrego Valencia** 
 
 -------------
-2. Como segundo punto se nos asigno realizar un programa que lea tres números reales y determine cuál es el mayor.
+### 2. Como segundo punto se nos asigno realizar un programa que lea tres números reales y determine cuál es el mayor.
 
 Este código utiliza la función input() para leer los números desde la entrada estándar, luego los convierte a tipo float para permitir números reales. Después, mediante una serie de declaraciones if, elif y else, compara los números entre sí para determinar cuál es el mayor y finalmente lo imprime usando print().
 ```python
@@ -63,7 +63,7 @@ graph TD;
 El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
-3. Para el tercer punto se encomendo realizar un programa que lea un número enteros y determine si es par o impar.
+### 3. Para el tercer punto se encomendo realizar un programa que lea un número enteros y determine si es par o impar.
 
 Este código comienza con la lectura de un número entero utilizando input(), convirtiéndolo a entero con int() debido a que input() lee los datos como cadena de texto. Luego, utiliza una declaración if para evaluar si el residuo de dividir el número entre 2 es igual a 0. Si es así, imprime que el número es par; de lo contrario, imprime que es impar.
 ```python
@@ -93,7 +93,7 @@ graph TD;
 El programa se encuentra en el repositorio y al ser impar esta en un mismo archivo con terminacion .ipynb
 
 -------------
-4. En este punto se solicita realizar un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
+### 4. En este punto se solicita realizar un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 
 Este código inicia solicitando al usuario que ingrese dos números, que son almacenados en las variables num1 y num2 después de convertirlos a tipo float para permitir números reales. Luego, antes de realizar la operación de módulo, se verifica que el segundo número no sea cero para evitar un error de división por cero. Si num2 no es cero, se procede a calcular el módulo de num1 entre num2. Si el resultado es cero, se imprime que num1 es múltiplo de num2; de lo contrario, se indica que no lo es.
 
@@ -132,7 +132,7 @@ graph TD;
 El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
-5. Para este punto se debe realizar un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+### 5. Para este punto se debe realizar un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 
 Este programa solicita al usuario que ingrese tres números reales. Los números se leen desde la entrada estándar y se almacenan en variables después de convertirlos a tipo float. Luego, se calcula la suma de los dos primeros números y se compara esta suma con el tercer número. Dependiendo de esta comparación, se imprime si la suma es mayor, menor o igual al tercer número.
 
@@ -161,7 +161,7 @@ El programa se encuentra en el repositorio y al ser impar esta en un mismo archi
 
 -------------
 
-6. Las instrucciones fueron Escribir un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+### 6. Las instrucciones fueron Escribir un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
 
 El código primero solicita al usuario que ingrese un caracter y lo convierte a minúscula para hacer la comparación de manera case-insensitive. Luego verifica si el caracter ingresado está en la cadena de vocales. Si es así, imprime que es una vocal. Si no está y es una letra del alfabeto (chequeado con isalpha()), imprime que es una consonante. Si no es una letra, informa al usuario que el caracter ingresado no es una letra.
 
@@ -187,7 +187,7 @@ else:
 El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
-7. Este punto pide realizar un programa que pida 5 números reales y calcule las siguientes operaciones:
+### 7. Este punto pide realizar un programa que pida 5 números reales y calcule las siguientes operaciones:
 
 - El promedio
 - La mediana
@@ -265,7 +265,7 @@ El programa se encuentra en el repositorio y al ser impar esta en un mismo archi
 
 --------------
 
-8. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+### 8. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
 Para este programa se realizan una serie de pasos que se basan inicialmente en pedir al usuario la frecuencia de la onda en hertzios (Hz) se descomenta la línea que usa input() para permitir al usuario ingresar el valor. Seguido de esto, se define una función determinar_espectro() que utiliza estructuras condicionales (if/elif/else) para determinar en qué parte del espectro electromagnético se encuentra la frecuencia dada, basándose en los rangos definidos para cada tipo de onda.
 Usa esta función para obtener la parte del espectro correspondiente a la frecuencia ingresada. Finalmente da el resultado, indicando en qué parte del espectro se encuentra la frecuencia proporcionada.
@@ -301,7 +301,7 @@ El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 ---------------
 
-9. En este caso se pretende realizar un programa que reciba el nombre en minúsculas de un país de America y retorna la ciudad capital y si el país no pertenece al continente debe arrojar país no identificado.
+### 9. En este caso se pretende realizar un programa que reciba el nombre en minúsculas de un país de America y retorna la ciudad capital y si el país no pertenece al continente debe arrojar país no identificado.
     
 Se creó un diccionario llamado capitales, el cual actúa como una pequeña base de datos para el programa. Los países actúan como claves (keys) y sus respectivas capitales como valores (values). Este diccionario incluye una variedad de países de América y sus capitales correspondientes. Seguido a esto, a pesar de que se utiliza un ejemplo, lo ideal es utilizar input() para permitir al usuario ingresar el nombre del país, algo así como pais = input("Ingrese el nombre de un país de América: ").lower(), asegurando que la entrada se convierta a minúsculas para que coincida con las claves del diccionario. Para finalizar el programa utiliza una estructura condicional if para verificar si el país ingresado se encuentra dentro del diccionario capitales. Si el país está en el diccionario (if pais in capitales:), el programa imprime el nombre del país y su capital correspondiente utilizando la sintaxis de formateo de cadenas. Esto se logra mediante el acceso al valor asociado con la clave que coincide con el nombre del país ingresado. Si el país no se encuentra en el diccionario (else:), se imprime un mensaje diciendo "País no identificado" para indicar que el nombre ingresado no coincide con ninguna de las claves del diccionario de capitales.
 
@@ -359,3 +359,4 @@ El programa se encuentra en el repositorio y al ser impar esta en un mismo archi
 
 ---------------
    
+### 10. 
