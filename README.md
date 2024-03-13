@@ -93,6 +93,34 @@ Su diagrama de flujo.
 El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
+5. Para este punto se debe realizar un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+
+Este programa solicita al usuario que ingrese tres números reales. Los números se leen desde la entrada estándar y se almacenan en variables después de convertirlos a tipo float. Luego, se calcula la suma de los dos primeros números y se compara esta suma con el tercer número. Dependiendo de esta comparación, se imprime si la suma es mayor, menor o igual al tercer número.
+
+```python
+# Leer tres números reales
+num1 = float(input("Introduce el primer número real: "))
+num2 = float(input("Introduce el segundo número real: "))
+num3 = float(input("Introduce el tercer número real: "))
+
+# Sumar los dos primeros números
+suma = num1 + num2
+
+# Comparar la suma con el tercer número y mostrar el resultado
+if suma > num3:
+    print("La suma de los dos primeros números es mayor que el tercer número.")
+elif suma < num3:
+    print("La suma de los dos primeros números es menor que el tercer número.")
+else:
+    print("La suma de los dos primeros números es igual al tercer número.")
+
+# Código finalizado
+
+```
+
+El programa se encuentra en el repositorio y al ser impar esta en un mismo archivo con terminacion .ipynb
+
+-------------
 
 8. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
