@@ -13,7 +13,7 @@ Coordial saludo, nuestro grupo de Programacion se llama API-lados, a continuacio
 
 ## Extra
 
-Realizamos la explicacion del Punto 3 del taller, a traves de un [video](http://https://youtu.be/7iY025Nden4?feature=shared "video")  en Youtube
+Realizamos la explicacion del Punto 3 del taller, a traves de un [video](http://https://youtu.be/7iY025Nden4?si=0c9ZjtwzETxhgRjx "video") en Youtube
 
 ------------
 
@@ -27,7 +27,7 @@ Realizamos la explicacion del Punto 3 del taller, a traves de un [video](http://
 
 
 - **Alejandro	Urrego Valencia**
-- ![Screenshot_2024-03-13-15-04-17-702_com android chrome-edit](https://github.com/MoraMaik/Taller_1_API-lados/assets/159048641/0d209f1d-1ec2-4f38-be88-359cb263bf23)
+![Screenshot_2024-03-13-15-04-17-702_com android chrome-edit](https://github.com/MoraMaik/Taller_1_API-lados/assets/159048641/0d209f1d-1ec2-4f38-be88-359cb263bf23)
 
 -------------
 ### 2. Como segundo punto se nos asigno realizar un programa que lea tres números reales y determine cuál es el mayor.
