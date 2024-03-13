@@ -179,7 +179,53 @@ def encontrar_categoria(frecuencia):
 categoria = encontrar_categoria(frecuencia)
 print(f"La frecuencia {frecuencia} Hz se encuentra en la categoría: {categoria}")
 ```
-Se requiere realizar un diagrama de flujo según la terminación de la cédula de los integrantes, en este caso el 9 es uno de los números que nos corresponde. El cual hace referencia al ejercicio en el cual el programa recibe el nombre en minúsculas de un país de America y retorna la ciudad capital y si el país no pertenece al continente debe arrojar país no identificado.
+
+9. En este caso se pretende realizar un programa que reciba el nombre en minúsculas de un país de America y retorna la ciudad capital y si el país no pertenece al continente debe arrojar país no identificado.
+
+
+    
+```python
+# Paso 1: Definir un diccionario con los países de América y sus capitales
+# Este diccionario actúa como una base de datos simple para las consultas
+capitales = {
+    "argentina": "Buenos Aires",
+    "bolivia": "Sucre",
+    "brasil": "Brasília",
+    "canada": "Ottawa",
+    "chile": "Santiago",
+    "colombia": "Bogotá",
+    "costa rica": "San José",
+    "cuba": "La Habana",
+    "ecuador": "Quito",
+    "el salvador": "San Salvador",
+    "estados unidos": "Washington D.C.",
+    "guatemala": "Ciudad de Guatemala",
+    "haiti": "Puerto Príncipe",
+    "honduras": "Tegucigalpa",
+    "mexico": "Ciudad de México",
+    "nicaragua": "Managua",
+    "panama": "Ciudad de Panamá",
+    "paraguay": "Asunción",
+    "peru": "Lima",
+    "republica dominicana": "Santo Domingo",
+    "uruguay": "Montevideo",
+    "venezuela": "Caracas"
+}
+
+# Paso 2: Solicitar al usuario que ingrese el nombre de un país de América
+# Para este ejemplo, asignaremos el nombre del país directamente.
+# En un escenario real, usarías input() para obtener la entrada del usuario.
+pais = "mexico"  # Simula la entrada del usuario
+
+# Paso 3: Verificar si el país está en el diccionario y mostrar la capital
+# Si el país no se encuentra, se indica que no está identificado
+if pais in capitales:
+    print(f"La capital de {pais} es: {capitales[pais]}")
+else:
+    print("País no identificado")
+```
+
+
 
 ```mermaid
 graph TD;
