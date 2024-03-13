@@ -11,7 +11,11 @@ Coordial saludo, nuestro grupo de Programacion se llama API-lados, a continuacio
 + Angie Carolina Salazar Lara (1052837889)
 + Alejandro	Urrego Valencia (1000364014)
 
--------------
+## Extra
+
+Realizamos la explicacion del Punto 3 del taller, a traves de un [video](http://https://youtu.be/7iY025Nden4?feature=shared "video")  en Youtube
+
+------------
 
 ### 1. Como primer punto del taller se encomendo realizar un [Quiz](http://https://pythonspot.com/python-tests-quizes/ "Quiz")
  Python Beginner Quiz (20 preguntas) y adjuntar una imagen con mas del 90% de acierto. En nuestro caso logramos obtener:
