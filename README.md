@@ -179,4 +179,11 @@ def encontrar_categoria(frecuencia):
 categoria = encontrar_categoria(frecuencia)
 print(f"La frecuencia {frecuencia} Hz se encuentra en la categoría: {categoria}")
 ```
+Se requiere realizar un diagrama de flujo según la terminación de la cédula de los integrantes, en este caso el 9 es uno de los números que nos corresponde. El cual hace referencia al ejercicio en el cual el programa recibe el nombre en minúsculas de un país de America y retorna la ciudad capital y si el país no pertenece al continente debe arrojar país no identificado.
 
+```mermaid
+graph TD;
+    A[Solicitar al usuario el nombre de un país de América] --> B{El país está en el diccionario?}
+    B -- Sí --> C[Mostrar la capital del país]
+    B -- No --> D[Mostrar 'País no identificado']
+```
