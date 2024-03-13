@@ -122,6 +122,33 @@ El programa se encuentra en el repositorio y al ser impar esta en un mismo archi
 
 -------------
 
+6. Las instrucciones fueron Escribir un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+
+El código primero solicita al usuario que ingrese un caracter y lo convierte a minúscula para hacer la comparación de manera case-insensitive. Luego verifica si el caracter ingresado está en la cadena de vocales. Si es así, imprime que es una vocal. Si no está y es una letra del alfabeto (chequeado con isalpha()), imprime que es una consonante. Si no es una letra, informa al usuario que el caracter ingresado no es una letra.
+
+```python
+# Solicitar al usuario que ingrese una letra
+letra = input("Introduce una letra: ").lower()  # Convertir a minúscula para simplificar la comparación
+
+# Lista de vocales
+vocales = 'aeiou'
+
+# Determinar si es una vocal o una consonante y mostrar el resultado
+if letra in vocales:
+    print(f"La letra '{letra}' es una vocal.")
+elif letra.isalpha():
+    print(f"La letra '{letra}' es una consonante.")
+else:
+    print("El caracter ingresado no es una letra.")
+
+# Código finalizado
+
+```
+
+El programa, al ser par, se encuentra en el repositorio con terminacion .py
+
+-------------
+
 8. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
 Para este programa se realizan una serie de pasos que se basan inicialmente en pedir al usuario la frecuencia de la onda en hertzios (Hz) se descomenta la línea que usa input() para permitir al usuario ingresar el valor. Seguido de esto, se define una función determinar_espectro() que utiliza estructuras condicionales (if/elif/else) para determinar en qué parte del espectro electromagnético se encuentra la frecuencia dada, basándose en los rangos definidos para cada tipo de onda.
