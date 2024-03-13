@@ -179,13 +179,34 @@ else:
 El programa, al ser par, se encuentra en el repositorio con terminacion .py
 
 -------------
-7. Este punto
+7. Este punto pide realizar un programa que pida 5 números reales y calcule las siguientes operaciones:
 
+- El promedio
+- La mediana
+- El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+- Ordenar los números de forma ascendente
+- Ordenar los números de forma descendente
+- La potencia del mayor número elevado al menor número
+- La raíz cúbica del menor número
+
+En primer lugar se define una lista llamada numeros que contiene cinco números reales. Aunque se asignan directamente valores para brindar un ejemplo, se utiliza input() para capturar números uno por uno. Luego operacionalmente se realiza:
+   1. El calculo del promedio de los números en la lista. Primero, se suman todos los números usando un bucle 'for', y luego divide esa suma por la cantidad de números en la 
+   lista para obtener el promedio. Este resultado se imprime en pantalla.
+   2. La mediana, primero ordena los números en la lista de manera ascendente usando 'sorted()'. Luego, determina si la cantidad de números es par o impar 
+   para calcular la mediana correctamente: si es par, promedia los dos números centrales; si es impar, selecciona el número central directamente. La mediana se imprime en 
+   pantalla.
+   3. El promedio multiplicativo se calcula multiplicando todos los números entre sí y luego tomando la raíz enésima del producto, donde "n" es la cantidad de números. 
+   Este cálculo se realiza multiplicando todos los elementos en un bucle for y luego aplicando la operación de raíz utilizando el exponente '(1/len(numeros))'. El 
+   resultado se muestra en pantalla.
+   4. Se utiliza 'sorted()' para ordenar la lista de números en orden ascendente y luego imprime el resultado.
+   5. Se usa el argumento 'reverse=True' en la función 'sorted()' para ordenar los números en orden descendente. El resultado se imprime en pantalla.
+   6. Para calcular la potencia del mayor número elevado al menor número, primero se identifica el mayor y el menor número en la lista usando las funciones 'max()' y 
+   'min()', respectivamente. Luego, se calcula la potencia del mayor número elevado al menor y muestra el resultado.
+   7. Finalmente, para calcular la raíz cúbica del número más pequeño de la lista y teniendo en cuenta que Python no tiene una función integrada específica para calcular 
+   raíces cúbicas, se utiliza la operación de potencia con un exponente de '(1/3)' para obtenerla. Este valor se imprime en pantalla.
 
 ```python
    # Celda 1: Solicitar al usuario que ingrese 5 números reales
-# Para el contexto de este ejemplo, se asignarán los números directamente.
-# En un entorno interactivo, podrías usar input() para capturar los números uno por uno.
 numeros = [2.3, 4.5, 1.2, 3.4, 5.6]  # Ejemplo de lista de números
 
 # Celda 2: Calcular el promedio
@@ -232,11 +253,12 @@ raiz_cubica_menor = menor ** (1/3)
 print(f"Raíz cúbica del menor número: {raiz_cubica_menor}")
 ```
 
-9. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+8. En este punto se solicitó escribir un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
 Para este programa se realizan una serie de pasos que se basan inicialmente en pedir al usuario la frecuencia de la onda en hertzios (Hz) se descomenta la línea que usa input() para permitir al usuario ingresar el valor. Seguido de esto, se define una función determinar_espectro() que utiliza estructuras condicionales (if/elif/else) para determinar en qué parte del espectro electromagnético se encuentra la frecuencia dada, basándose en los rangos definidos para cada tipo de onda.
 Usa esta función para obtener la parte del espectro correspondiente a la frecuencia ingresada. Finalmente da el resultado, indicando en qué parte del espectro se encuentra la frecuencia proporcionada.
 ```python
+
 # Paso 1: Definir los límites de frecuencia para cada categoría del espectro electromagnético
 espectro = {
     "Ondas de Radio": (0, 3e9), # hasta 3 GHz
@@ -270,7 +292,6 @@ Se creó un diccionario llamado capitales, el cual actúa como una pequeña base
     
 ```python
 # Paso 1: Definir un diccionario con los países de América y sus capitales
-# Este diccionario actúa como una base de datos simple para las consultas
 capitales = {
     "argentina": "Buenos Aires",
     "bolivia": "Sucre",
@@ -298,7 +319,6 @@ capitales = {
 
 # Paso 2: Solicitar al usuario que ingrese el nombre de un país de América
 # Para este ejemplo, asignaremos el nombre del país directamente.
-# En un escenario real, usarías input() para obtener la entrada del usuario.
 pais = "mexico"  # Simula la entrada del usuario
 
 # Paso 3: Verificar si el país está en el diccionario y mostrar la capital
