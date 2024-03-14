@@ -22,7 +22,7 @@ Realizamos la explicacion del Punto 3 del taller, a traves de un video en Youtub
  Python Beginner Quiz (20 preguntas) y adjuntar una imagen con mas del 90% de acierto. En nuestro caso logramos obtener:
 
 -  **Michael Kaleth Mora Mejia**
-[![Whats-App-Image-2024-03-13-at-12-21-16-PM.jpg](https://i.postimg.cc/SRywDHWf/Whats-App-Image-2024-03-13-at-12-21-16-PM.jpg)](https://postimg.cc/hz5yGyZX)
+[![Whats-App-Image-2024-03-13-at-7-40-18-PM.jpg](https://i.postimg.cc/FR0BF4yp/Whats-App-Image-2024-03-13-at-7-40-18-PM.jpg)](https://postimg.cc/cg4mTP5t)
 
 - **Angie Carolina Salazar Lara**
 [![Captura-de-pantalla-2024-03-13-174008.png](https://i.postimg.cc/JhfkKW9P/Captura-de-pantalla-2024-03-13-174008.png)](https://postimg.cc/rd9sF7yr)
